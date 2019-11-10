@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{D2FA7599-918C-468A-B10A-BAA14D2C625E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolisTechMVC", "HolisTechMVC\HolisTechMVC.csproj", "{7C0F3EBD-97DF-414D-AD23-691F05412799}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D2FA7599-918C-468A-B10A-BAA14D2C625E} = {D2FA7599-918C-468A-B10A-BAA14D2C625E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2FA7599-918C-468A-B10A-BAA14D2C625E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2FA7599-918C-468A-B10A-BAA14D2C625E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2FA7599-918C-468A-B10A-BAA14D2C625E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2FA7599-918C-468A-B10A-BAA14D2C625E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0F3EBD-97DF-414D-AD23-691F05412799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0F3EBD-97DF-414D-AD23-691F05412799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0F3EBD-97DF-414D-AD23-691F05412799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0F3EBD-97DF-414D-AD23-691F05412799}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FC03FBF-1AE0-4DEF-89C5-10DF873A5CBA}
+	EndGlobalSection
+EndGlobal
